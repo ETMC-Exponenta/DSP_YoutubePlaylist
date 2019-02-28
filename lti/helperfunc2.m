@@ -5,7 +5,7 @@ function helperfunc2(b,a,fs)
 
 % Plotting range (polar coordinates):
 omega = linspace(-pi,pi);
-freq_vector = fs*omega./2*pi;
+freq_vector = fs*omega./2*pi; 
 r = linspace(0,2);
 [OM,R] = meshgrid(omega,r);
 
